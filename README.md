@@ -13,7 +13,7 @@ Path::join("/a", "b", "c", "..", "d"); // -> /a/b/d
 Path::normalize("/a/b/c/../d");    // -> /a/b/d
 Path::normalize("/a/b/c/../../d"); // -> /a/d
 Path::normalize("/b/wat//");       // -> /b/wat/
-Path::normalize(/b///wat/);        // -> /b/wat/
+Path::normalize("/b///wat/");        // -> /b/wat/
 Path::normalize("");               // -> .
 Path::normalize("/");              // -> /
 ```
