@@ -22,6 +22,10 @@ class Path {
      * @returns {String}     - The normailized path
      */
     static public function normalize($path) {
+        if (!strlen($path)) {
+            return ".";
+        }
+
         $isAbsolute    = $path[0];
         $trailingSlash = $path[strlen($path) - 1];
 
@@ -44,11 +48,15 @@ class Path {
 
         $path = implode("/", $peices);
 
-        if (!$path && !$isAbsolute) { $path = "."; }
+        if (!$path && !$isAbsolute) {
+            $path = ".";
+        }
 
-        if ($path && $trailingSlash == "/") { $path .= "/"; }
+        if ($path && $trailingSlash == "/") {
+            $path .= "/";
+        }
 
-        return ($isAbsolute ? "/" : "") . $path;
+        return ($isAbsolute == "/" ? "/" : "") . $path;
     }
 
 }
