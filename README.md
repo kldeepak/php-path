@@ -1,5 +1,8 @@
 Path
 ====
+
+[![Build Status](https://travis-ci.org/JosephMoniz/php-path.png?branch=master)](undefined)
+
 Simple and care free file path concatenation and simplification.
 
 ```php
