@@ -1,5 +1,6 @@
 {
     "name": "plasmaconduit/path",
+    "version": "0.1.0"
     "require-dev": {
         "phpspec/phpspec2": "*"
     },
