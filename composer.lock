@@ -1,5 +1,5 @@
 {
-    "hash": "bb445d21e8dc3a07747eb654e980e933",
+    "hash": "c03937476cc66c7ae1a9a8c9fc9d6c8a",
     "packages": [
 
     ],
@@ -154,18 +154,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console",
-                "reference": "5a46888e178b84d9578a1f460580190d35200756"
+                "reference": "v2.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Console/archive/5a46888e178b84d9578a1f460580190d35200756.zip",
-                "reference": "5a46888e178b84d9578a1f460580190d35200756",
+                "url": "https://github.com/symfony/Console/archive/v2.1.7.zip",
+                "reference": "v2.1.7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2013-01-16 09:27:54",
+            "time": "2013-01-17 15:20:05",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -196,12 +196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher",
-                "reference": "593ca3bb9ed5eccc1156c402102d9b5bb07cd783"
+                "reference": "v2.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/EventDispatcher/archive/593ca3bb9ed5eccc1156c402102d9b5bb07cd783.zip",
-                "reference": "593ca3bb9ed5eccc1156c402102d9b5bb07cd783",
+                "url": "https://github.com/symfony/EventDispatcher/archive/v2.1.7.zip",
+                "reference": "v2.1.7",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +214,7 @@
                 "symfony/dependency-injection": "2.1.*",
                 "symfony/http-kernel": "2.1.*"
             },
-            "time": "2013-01-09 08:51:07",
+            "time": "2013-01-11 00:31:43",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -245,12 +245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder",
-                "reference": "c66d4fc4d39d34de3b9baac6a2ecd2461a282494"
+                "reference": "v2.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Finder/archive/c66d4fc4d39d34de3b9baac6a2ecd2461a282494.zip",
-                "reference": "c66d4fc4d39d34de3b9baac6a2ecd2461a282494",
+                "url": "https://github.com/symfony/Finder/archive/v2.1.7.zip",
+                "reference": "v2.1.7",
                 "shasum": ""
             },
             "require": {
