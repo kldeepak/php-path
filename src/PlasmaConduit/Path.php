@@ -11,7 +11,10 @@ class Path {
      * @returns {String}          - The final file path
      */
     static public function join() {
-        return self::normalize(implode("/", func_get_args()));
+        $peices = array_filter(func_get_args(), function($value) {
+            return $value;
+        });
+        return self::normalize(implode("/", $peices));
     }
 
     /**
