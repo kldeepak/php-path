@@ -16,6 +16,10 @@ class Path extends ObjectBehavior {
         Path::join("/a", "b", "c", "..", "d")->shouldReturn("/a/b/d");
     }
 
+    public function it_should_filter_empty_peices_for_join() {
+        Path::join("", "lonely")->shouldReturn("lonely");
+    }
+
     public function it_should_correctly_traverse_for_normalize() {
         Path::normalize("/a/b/c/../d")->shouldReturn("/a/b/d");
     }
