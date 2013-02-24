@@ -34,8 +34,8 @@ class Path {
 
         $up     = 0;
         $peices = array_values(array_filter(explode("/", $path), function($n) {
-                    return !!$n;
-                }));
+            return !!$n;
+        }));
         for ($i = count($peices) - 1; $i >= 0; $i--) {
             $last = $peices[$i];
             if ($last == ".") {
