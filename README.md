@@ -20,3 +20,31 @@ Path::normalize("/b///wat/");         // -> /b/wat/
 Path::normalize("");                  // -> .
 Path::normalize("/");                 // -> /
 ```
+
+Public Interface
+----------------
+```php
+namespace PlasmaConduit;
+
+class Path {
+
+    /**
+     * This function takes a variable amount of strings and joins
+     * them together so that they form a valid file path.
+     *
+     * @param {String ...} $peice - The peices of the file path
+     * @returns {String}          - The final file path
+     */
+    static public function join();
+
+    /**
+     * This function takes a valid file path and nomalizes it into
+     * the simplest form possible.
+     *
+     * @param {String} $path - The path to normalize
+     * @returns {String}     - The normailized path
+     */
+    static public function normalize($path);
+
+}
+```
